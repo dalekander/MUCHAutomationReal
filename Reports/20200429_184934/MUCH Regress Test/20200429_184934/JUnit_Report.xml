@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MUCH Regress Test" time="0.425" tests="1" failures="0" errors="1">
+   <testsuite name="MUCH Regress Test" tests="1" failures="0" errors="1" time="0.425" timestamp="2020-04-29 18:49:37" hostname="daniel.alekander - ID-L3105.hcg.homecredit.net" id="Test Suites/MUCH Regress Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_184934\\MUCH Regress Test\\20200429_184934"/>
+         <property name="logFiles" value="C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_184934\\MUCH Regress Test\\20200429_184934\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="daniel.alekander - ID-L3105.hcg.homecredit.net"/>
+         <property name="hostAddress" value="10.56.25.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Manual Assignment Testing" time="0.02" classname="Test Cases/Manual Assignment Testing" status="ERROR">
+         <error type="ERROR" message="Test Cases/Manual Assignment Testing has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2020-04-29 18:49:37 - [TEST_CASE][ERROR] - Test Cases/Manual Assignment Testing: Test Cases/Manual Assignment Testing has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2020-04-29 18:49:37 - [TEST_CASE][ERROR] - Test Cases/Manual Assignment Testing: Test Cases/Manual Assignment Testing has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-29 18:49:37 - [TEST_SUITE][ERROR] - MUCH Regress Test: Test Cases/Manual Assignment Testing has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2020-04-29 18:49:37 - [TEST_SUITE][ERROR] - MUCH Regress Test: Test Cases/Manual Assignment Testing has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

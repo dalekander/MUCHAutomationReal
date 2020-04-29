@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977536</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/MUCH Regress Test</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">MUCH Regress Test</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/MUCH Regress Test</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977549</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = daniel.alekander - ID-L3105.hcg.homecredit.net</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">daniel.alekander - ID-L3105.hcg.homecredit.net</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977550</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977550</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.56.25.15</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.56.25.15</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977551</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977783</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Manual Assignment Testing</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Manual Assignment Testing</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Manual Assignment Testing</property>
+  <property name="source">C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Test Cases\\Manual Assignment Testing.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977787</millis>
+  <sequence>7</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Manual Assignment Testing has ERROR(s).\nReason:\njava.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">java.io.FileNotFoundException</property>
+  <property name="failed.exception.stacktrace">java.io.FileNotFoundException: File &apos;&apos; does not exist\r\n\tat org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)\r\n\tat org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)\r\n\tat org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1734)\r\n\tat com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:210)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1588160974480.run(TempTestSuite1588160974480.groovy:36)\r\n</property>
+  <property name="failed.exception.message">File &apos;&apos; does not exist</property>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977803</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Manual Assignment Testing</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-04-29T18:49:37</date>
+  <millis>1588160977961</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/MUCH Regress Test</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

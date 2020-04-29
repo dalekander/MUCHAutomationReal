@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>e3d6b91c-82b2-48d3-9939-24d9d8d07cc8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Manual Assignment Testing</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>445ce464-9545-4111-bd50-01910c452201</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Special Visit Result Testing</testCaseId>
    </testCaseLink>
    <testCaseLink>

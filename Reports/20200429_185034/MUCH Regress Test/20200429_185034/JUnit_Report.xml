@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MUCH Regress Test" time="82.087" tests="1" failures="0" errors="0">
+   <testsuite name="MUCH Regress Test" tests="1" failures="0" errors="0" time="82.087" timestamp="2020-04-29 18:50:36" hostname="daniel.alekander - ID-L3105.hcg.homecredit.net" id="Test Suites/MUCH Regress Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_185034\\MUCH Regress Test\\20200429_185034"/>
+         <property name="logFiles" value="C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_185034\\MUCH Regress Test\\20200429_185034\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_185034\\MUCH Regress Test\\20200429_185034\\1588161073262.png"/>
+         <property name="hostName" value="daniel.alekander - ID-L3105.hcg.homecredit.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.129"/>
+         <property name="hostAddress" value="10.56.25.15"/>
+         <property name="sessionId" value="726def90cc6cb893dfd6ade9edb1ef02"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Manual Assignment Testing" time="81.842" classname="Test Cases/Manual Assignment Testing" status="PASSED">
+         <system-out><![CDATA[2020-04-29 18:50:36 - [TEST_CASE][PASSED] - Test Cases/Manual Assignment Testing: Test Cases/Manual Assignment Testing
+
+2020-04-29 18:50:37 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2020-04-29 18:50:37 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://mus.id00c1.id.infra/ui/#/'
+
+2020-04-29 18:50:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-29 18:50:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-29 18:51:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mus.id00c1.id.infra/ui/#/'
+
+2020-04-29 18:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Log in to HCI/much_ui_login_page_username"), username): Text 'drokhmah' is set on object 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_username'
+
+2020-04-29 18:51:10 - [MESSAGE][PASSED] - Text 'drokhmah' is set on object 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_username'
+
+2020-04-29 18:51:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_Log in to HCI/much_ui_login_page_password"), password): Text '12345678' is set on object 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_password'
+
+2020-04-29 18:51:10 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_password'
+
+2020-04-29 18:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_Log in to HCI/much_ui_login_page_button")): Object: 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_button' is clicked on
+
+2020-04-29 18:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Log in to HCI/much_ui_login_page_button' is clicked on
+
+2020-04-29 18:51:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Login Page/Page_Log in to HCI/h1_Your password is going to expire"), 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Page_Log in to HCI/h1_Your password is going to expire' located by 'By.xpath: //form[@id='hci-password-expiring-form']/h1' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Page_Log in to HCI/h1_Your password is going to expire' located by 'By.xpath: //form[@id='hci-password-expiring-form']/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at MUCH_Regress_Test.setupTestCase(MUCH%20Regress%20Test.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:215)
+	at com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:194)
+	at com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:193)
+	at com.kms.katalon.core.main.TestSuiteExecutor.invokeEachTestCaseMethod(TestSuiteExecutor.java:177)
+	at com.kms.katalon.core.main.TestCaseExecutor.invokeTestSuiteMethod(TestCaseExecutor.java:269)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588161034153.run(TempTestSuite1588161034153.groovy:36)
+)
+
+2020-04-29 18:51:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='hci-password-expiring-form']/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-29 18:51:13 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Page_Log in to HCI/h1_Your password is going to expire' located by 'By.xpath: //form[@id='hci-password-expiring-form']/h1' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Page_Log in to HCI/h1_Your password is going to expire' located by 'By.xpath: //form[@id='hci-password-expiring-form']/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at MUCH_Regress_Test.setupTestCase(MUCH%20Regress%20Test.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:215)
+	at com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:194)
+	at com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:193)
+	at com.kms.katalon.core.main.TestSuiteExecutor.invokeEachTestCaseMethod(TestSuiteExecutor.java:177)
+	at com.kms.katalon.core.main.TestCaseExecutor.invokeTestSuiteMethod(TestCaseExecutor.java:269)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588161034153.run(TempTestSuite1588161034153.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\daniel.alekander\\Katalon Studio\\MUCHAutomationReal\\Reports\\20200429_185034\\MUCH Regress Test\\20200429_185034\\1588161073262.png]]
+
+2020-04-29 18:51:13 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_menu_button' is clicked on
+
+2020-04-29 18:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_menu_button")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_menu_button' is clicked on
+
+2020-04-29 18:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_menu_button' is clicked on
+
+2020-04-29 18:51:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2020-04-29 18:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_assignment_button")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_assignment_button' is clicked on
+
+2020-04-29 18:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_assignment_button' is clicked on
+
+2020-04-29 18:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitor_input"), username): Text 'drokhmah' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:16 - [MESSAGE][PASSED] - Text 'drokhmah' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:17 - [TEST_STEP][PASSED] - assignedBefore = getText(findTestObject("Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number")).replaceAll("[^0-9.]", ""): Text of object 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number' is: '727'
+
+2020-04-29 18:51:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number' is: '727'
+
+2020-04-29 18:51:19 - [TEST_STEP][PASSED] - println("assigned before: " + assignedBefore): null
+
+2020-04-29 18:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitor_input"), ""): Text '' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter' is clicked on
+
+2020-04-29 18:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter' is clicked on
+
+2020-04-29 18:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter_EFC")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter_EFC' is clicked on
+
+2020-04-29 18:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasetype_filter_EFC' is clicked on
+
+2020-04-29 18:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen' is clicked on
+
+2020-04-29 18:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen' is clicked on
+
+2020-04-29 18:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter' is clicked on
+
+2020-04-29 18:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter' is clicked on
+
+2020-04-29 18:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter_Unassigned")): Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter_Unassigned' is clicked on
+
+2020-04-29 18:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitcasestate_filter_Unassigned' is clicked on
+
+2020-04-29 18:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen' is clicked on
+
+2020-04-29 18:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_middlescreen' is clicked on
+
+2020-04-29 18:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_asc")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_asc' is clicked on
+
+2020-04-29 18:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_asc' is clicked on
+
+2020-04-29 18:51:37 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_desc")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_desc' is clicked on
+
+2020-04-29 18:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_creation_date_sort_desc' is clicked on
+
+2020-04-29 18:51:39 - [TEST_STEP][PASSED] - driver1 = getWebDriver(): null
+
+2020-04-29 18:51:39 - [TEST_STEP][PASSED] - Table1 = driver1.findElement(By.xpath("//table/tbody")): null
+
+2020-04-29 18:51:40 - [TEST_STEP][PASSED] - rows_table1 = Table1.findElements(By.tagName("tr")): null
+
+2020-04-29 18:51:40 - [TEST_STEP][PASSED] - get(0).click(): null
+
+2020-04-29 18:51:40 - [TEST_STEP][PASSED] - selectedVisitCaseID_MA = get(14).getText(): null
+
+2020-04-29 18:51:41 - [TEST_STEP][PASSED] - selectedContracNo_MA = get(2).getText(): null
+
+2020-04-29 18:51:41 - [TEST_STEP][PASSED] - selectedCreationDate_MA = get(8).getText(): null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button' is clicked on
+
+2020-04-29 18:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button' is clicked on
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - found = false: null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - counter = 0: null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - while (found == false || counter < 5): null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - ExpectedValue = username: null
+
+2020-04-29 18:51:42 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table/tbody")): null
+
+2020-04-29 18:51:43 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:44 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:45 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - if (found == false): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_nextpage_filter_button' is clicked on
+
+2020-04-29 18:51:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_nextpage_filter_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_nextpage_filter_button' is clicked on
+
+2020-04-29 18:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_nextpage_filter_button' is clicked on
+
+2020-04-29 18:51:48 - [TEST_STEP][PASSED] - counter = counter + 1: null
+
+2020-04-29 18:51:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-04-29 18:51:48 - [TEST_STEP][PASSED] - ExpectedValue = username: null
+
+2020-04-29 18:51:48 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table/tbody")): null
+
+2020-04-29 18:51:48 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - println("Text present in row number 3 is: " + get(column).getText()): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - get(0).click(): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - found = true: null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - break: null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (found == false): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - else: null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - break: null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - if (found == true): null
+
+2020-04-29 18:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button' is clicked on
+
+2020-04-29 18:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_selected_button' is clicked on
+
+2020-04-29 18:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_confirmallsuggestoin_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_confirmallsuggestoin_button' is clicked on
+
+2020-04-29 18:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_confirmallsuggestoin_button' is clicked on
+
+2020-04-29 18:51:51 - [TEST_STEP][PASSED] - "now we check the number of visit case assigned after assignment": null
+
+2020-04-29 18:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Homepage/Page_Much application/much_ui_homepage_visitor_input"), username): Text 'drokhmah' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:53 - [MESSAGE][PASSED] - Text 'drokhmah' is set on object 'Object Repository/Homepage/Page_Much application/much_ui_homepage_visitor_input'
+
+2020-04-29 18:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button")): Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_search_button' is clicked on
+
+2020-04-29 18:51:54 - [TEST_STEP][PASSED] - assignedAfter = getText(findTestObject("Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number")).replaceAll("[^0-9.]", ""): Text of object 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number' is: '728'
+
+2020-04-29 18:51:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Assignment Management Page/Page_Much application/much_ui_assignmentpage_filtered_number' is: '728'
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("assigned after: " + assignedAfter): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - assignedDif = 0: null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - assignedDif = Integer.parseInt(assignedAfter) - Integer.parseInt(assignedBefore): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - if (assignedDif == 1): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("TESTING SUCCESFULL -  Number of assigned visit case to " + username + " increased by " + assignedDif): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("PRINT EXPORT IMPORT TESTING RESULT"): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Contract No selected:" + selectedContracNo_EI): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Visit case Id:" + selectedVisitCaseID_EI): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("PRINT MANUAL ASSIGNMENT TESTING RESULT"): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Contract No selected:" + selectedContracNo_MA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Visit case Id:" + selectedVisitCaseID_MA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Creation Date:" + selectedCreationDate_MA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("PRINT REASSIGNMENT TESTING RESULT"): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Contract No selected:" + selectedContracNo_RA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Visit case Id:" + selectedVisitCaseID_RA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Creation Date:" + selectedCreationDate_RA): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("PRINT SPECIAL VISIT RESULT TESTING RESULT"): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Visit Case ID: " + selectedVisitCaseID_SVR): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Contract ID: " + selectedContracNo_SVR): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Creation Date: " + selectedCreationDate_SVR): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("PRINT PAYMENT TESTING RESULT"): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Visit Case ID: " + visit_id): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Contract ID: " + contract_no): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - println("Creation Date: " + creation_date): null
+
+2020-04-29 18:51:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-29 18:51:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-29 18:51:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-29 18:51:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-29 18:51:58 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-29 18:50:36 - [TEST_SUITE][PASSED] - MUCH Regress Test: Test Cases/Manual Assignment Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
