@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Export Import Testing</name>
+   <tag></tag>
+   <comment>Read data from excel
+click on refresh button</comment>
+   <testCaseGuid>02fa8b27-4094-46ef-b481-91e3367b58f6</testCaseGuid>
+</TestCaseEntity>
